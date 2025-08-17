@@ -7,3 +7,10 @@ hm:
     title: "交易服务接口文档"
     desc: "交易服务接口文档"
     package: com.hmall.trade.controller
+spring:
+  rabbitmq:
+    host: 192.168.255.101 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: /hmall # 虚拟主机
+    username: hmall # 用户名
+    password: jiayou0.0 # 密码
